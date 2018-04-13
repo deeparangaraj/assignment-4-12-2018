@@ -7,7 +7,7 @@ public class Sentence
 	{
 		String[] ans = new String[2];
 		
-		if (str.length() != 0)
+		if (str != null && str.length() != 0 )
 		{
 			
 			String array[] = str.split(" ");

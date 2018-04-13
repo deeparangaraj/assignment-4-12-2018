@@ -24,5 +24,14 @@ class LongestWordCountTest {
 		assertArrayEquals(null, actual);
 	
 	}
+	
+	@Test
+	void longestWordCountNullTest()
+	{
+		String s = null;
+		String[] actual = Sentence.longestWordCount(s);
+		assertArrayEquals(null, actual);
+		
+	}
 
 }
